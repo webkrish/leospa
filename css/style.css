@@ -73,6 +73,7 @@
   color: #888888;
   font-weight: 100;
   margin-bottom: 40px;
+  font-size: 1.3rem;
   line-height: 20px;
 }
 .banner .banner-text a {
@@ -447,6 +448,7 @@
   color: #888888;
   font-size: 1.5rem;
   padding: 1% 25%;
+  font-size: 1rem;
 }
 .contuct .section {
   display: flex;
