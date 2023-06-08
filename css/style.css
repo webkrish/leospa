@@ -29,7 +29,7 @@
 .header ul li a {
   text-decoration: none;
   color: #263a41;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   transition: all 300ms ease-in-out;
 }
 .header ul li a:hover {
@@ -60,7 +60,7 @@
   color: #ff817e;
   text-transform: uppercase;
   font-family: "Rufina", serif;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 .banner .banner-text h2 {
   font-family: "Rufina", serif;
@@ -71,15 +71,16 @@
 .banner .banner-text p {
   color: #888888;
   font-weight: 100;
-  margin-bottom: 40px;
-  font-size: 1.3rem;
+  margin-bottom: 120px;
+  font-size: 1.5rem;
   line-height: 20px;
 }
 .banner .banner-text a {
   color: #fff;
   font-weight: bold;
   background-color: #ff817e;
-  padding: 12px 28px;
+  font-size: 1.5rem;
+  padding: 20px 45px;
   transition: all 300ms ease-in-out;
   text-decoration: none;
 }
@@ -99,8 +100,8 @@
 }
 .about .m-auto .flower-1 {
   position: absolute;
-  top: 17%;
-  width: 12%;
+  top: 15%;
+  width: 10%;
   right: 80%;
 }
 .about .m-auto .flower-2 {
@@ -110,7 +111,8 @@
   width: 7%;
 }
 .about .about-text {
-  padding-top: 50px;
+  position: relative;
+  top: 100px;
 }
 .about .about-text img {
   width: 7%;
@@ -124,7 +126,7 @@
   padding: 10px 0;
 }
 .about .about-text h2 {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: "Rufina", serif;
 }
@@ -134,17 +136,19 @@
   color: #888888;
   font-size: 1.5rem;
 }
-.about a {
+.about .about-text a {
+  position: relative;
   color: #fff;
   font-weight: bold;
   background-color: #ff817e;
-  padding: 12px 28px;
+  padding: 12px 45px;
   margin-top: 10px;
-  border-radius: 20px;
+  font-size: 1.5rem;
+  border-radius: 25px;
   text-decoration: none;
   transition: all 300ms ease-in-out;
 }
-.about a:hover {
+.about .about-text a:hover {
   color: #263a41;
   transition: all 300ms ease-in-out;
   background-color: transparent;
@@ -155,6 +159,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  top: 100px;
   width: 100%;
   padding: 25px 0;
   margin: 0;
@@ -186,7 +191,7 @@
 }
 .treatment-section .main .text h2 {
   font-family: "Rufina", serif;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   padding: 10px 0;
   color: #fff;
@@ -198,9 +203,11 @@
 
 .full-wrapper {
   text-align: center;
+  position: relative;
+  top: 100px;
 }
 .full-wrapper h1 {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: "Rufina", serif;
 }
@@ -224,22 +231,23 @@
   padding: 15px 0;
 }
 .full-wrapper .wrapper .card h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Rufina", serif;
   font-weight: bold;
 }
 .full-wrapper .wrapper .card p {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   padding: 5px 0;
   line-height: 20px;
 }
 .full-wrapper .wrapper .card a {
   color: #fff;
   font-weight: bold;
-  width: 110px;
+  width: 150px;
   background-color: #263a41;
-  padding: 5px 0;
-  border-radius: 20px;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  border-radius: 25px;
   margin: 25px auto;
   transition: all 300ms ease-in-out;
   text-decoration: none;
@@ -255,6 +263,8 @@
 
 .my-slide {
   width: 100%;
+  position: relative;
+  top: 100px;
   text-align: center;
 }
 .my-slide .background {
@@ -266,7 +276,7 @@
   padding: 20px 0;
 }
 .my-slide .background p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: "Rufina", serif;
   line-height: 30px;
   padding: 0 100px;
@@ -277,7 +287,7 @@
   padding: 15px 0;
 }
 .my-slide .background .clint-info p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 10px 0;
 }
 .my-slide .background .clint-info p span {
@@ -288,9 +298,11 @@
 
 .team-section {
   text-align: center;
+  position: relative;
+  top: 100px;
 }
 .team-section h1 {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: "Rufina", serif;
 }
@@ -325,20 +337,20 @@
 }
 .team-section .team-wrapper .person .intro h2 {
   font-family: "Rufina", serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .team-section .team-wrapper .person .intro p {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .team-section .team-wrapper .person .intro .social a {
   text-decoration: none;
   color: #263a41;
   border: 1px solid #263a41;
   border-radius: 50%;
-  padding: 5px 0;
-  width: 12%;
-  font-size: 1.2rem;
+  padding: 10px 0;
+  width: 16%;
+  font-size: 1.7rem;
   margin: -30px 0;
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -363,6 +375,8 @@
   width: 100%;
   background-color: #fff9f8;
   display: flex;
+  position: relative;
+  top: 100px;
 }
 .appointment img {
   width: 40%;
@@ -380,7 +394,7 @@
   width: 40%;
   border: 0;
   border-bottom: 1px solid #888888;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   outline: 0;
   color: #888888;
   padding: 7px 0;
@@ -392,7 +406,7 @@
   border: 0;
   margin: 20px;
   border-bottom: 1px solid #888888;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   outline: 0;
   color: #888888;
   padding: 7px 0;
@@ -403,7 +417,7 @@
   border: 0;
   margin: 20px;
   border-bottom: 1px solid #888888;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   outline: 0;
   color: #888888;
   resize: none;
@@ -415,8 +429,8 @@
   font-weight: bold;
   background-color: #ff817e;
   padding: 12px 28px;
-  font-size: 1rem;
-  border-radius: 20px;
+  font-size: 1.5rem;
+  border-radius: 25px;
   margin: 15px 20px 0;
   transition: all 300ms ease-in-out;
   text-decoration: none;
@@ -429,12 +443,14 @@
 }
 
 .contuct {
+  position: relative;
+  top: 100px;
   width: 100%;
   text-align: center;
   margin: 25px auto;
 }
 .contuct h1 {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: bold;
   font-family: "Rufina", serif;
 }
@@ -444,7 +460,7 @@
   color: #888888;
   font-size: 1.5rem;
   padding: 1% 25%;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .contuct .section {
   display: flex;
@@ -455,13 +471,14 @@
   margin: 0;
 }
 .contuct .section .details address span {
-  left: -50px;
-  top: 25px;
+  left: -70px;
+  top: 32px;
   position: relative;
-  width: 25px;
+  width: 30px;
   border: 1px solid #ff817e;
   border-radius: 50%;
   padding: 6px 0;
+  font-size: 1.5rem;
   color: #fff;
   background-color: #ff817e;
 }
@@ -477,10 +494,10 @@
   width: 100%;
   border: 0;
   border: 1px solid #888888;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   outline: 0;
   color: #888888;
-  padding: 12px 5px;
+  padding: 12px 13px;
   margin: 5px;
   background: transparent;
 }
@@ -489,10 +506,10 @@
   width: 100%;
   border: 0;
   border: 1px solid #888888;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   outline: 0;
   color: #888888;
-  padding: 12px 5px;
+  padding: 12px 13px;
   margin: 5px;
   background: transparent;
 }
@@ -502,9 +519,10 @@
   position: relative;
   left: -110px;
   background-color: #ff817e;
-  padding: 12px 28px;
-  border-radius: 20px;
+  padding: 12px 45px;
+  border-radius: 25px;
   margin: 15px 20px 0;
+  font-size: 1.5rem;
   transition: all 300ms ease-in-out;
   text-decoration: none;
 }
@@ -516,6 +534,8 @@
 }
 
 footer {
+  position: relative;
+  top: 100px;
   text-align: center;
   background-color: #fff9f8;
   padding: 30px 0;
@@ -527,8 +547,8 @@ footer img {
   padding: 10px 0;
 }
 footer a {
-  font-size: 1.2rem;
-  padding: 0 5px;
+  font-size: 2rem;
+  padding: 0 12px;
   color: #263a41;
   transition: all 0.3s ease-in-out;
   border-right: 1px solid #888888;
@@ -539,7 +559,7 @@ footer a:hover {
 }
 footer p {
   padding: 10px 0;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 footer p span {
   color: #ff817e;
@@ -650,19 +670,35 @@ footer p span {
     width: 40%;
     padding-top: 8px;
   }
+  .banner .leaf {
+    position: absolute;
+  }
+  .banner .leaf img {
+    width: 33%;
+  }
   .banner .banner-text {
-    top: 10%;
+    position: relative;
+    top: 35px;
   }
   .banner .banner-text h1 {
     padding: 0;
   }
+  .banner .banner-text p {
+    margin-bottom: 60px;
+  }
+  .about {
+    margin-top: 0;
+  }
   .appointment .form form input {
-    margin: 20px 15px;
+    width: 95%;
+    margin: 20px 0;
   }
   .appointment .form form #services {
-    margin: 20px 15px;
+    width: 95%;
+    margin: 20px 0;
   }
   .appointment .form form textarea {
-    margin: 20px 15px;
+    width: 95%;
+    margin: 20px 0;
   }
 }/*# sourceMappingURL=style.css.map */

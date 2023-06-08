@@ -7,7 +7,7 @@ $black-color: #263a41;
 $grey-color: #888888;
 
 @mixin h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: bold;
     font-family: $ruf;
 }
@@ -55,7 +55,7 @@ $grey-color: #888888;
             a {
                 text-decoration: none;
                 color: $black-color;
-                font-size: 0.9rem;
+                font-size: 1.5rem;
                 transition: all 300ms ease-in-out;
 
             }
@@ -100,7 +100,7 @@ $grey-color: #888888;
             color: $main-color;
             text-transform: uppercase;
             font-family: $ruf;
-            font-size: 1.1rem;
+            font-size: 1.5rem;
         }
 
         h2 {
@@ -113,8 +113,8 @@ $grey-color: #888888;
         p {
             color: $grey-color;
             font-weight: 100;
-            margin-bottom: 40px;
-            font-size: 1.3rem;
+            margin-bottom: 120px;
+            font-size: 1.5rem;
             line-height: 20px;
         }
 
@@ -122,7 +122,8 @@ $grey-color: #888888;
             color: #fff;
             font-weight: bold;
             background-color: $main-color;
-            padding: 12px 28px;
+            font-size: 1.5rem;
+            padding: 20px 45px;
             transition: all 300ms ease-in-out;
             text-decoration: none;
         }
@@ -147,8 +148,8 @@ $grey-color: #888888;
 
         .flower-1 {
             position: absolute;
-            top: 17%;
-            width: 12%;
+            top: 15%;
+            width: 10%;
             right: 80%;
         }
 
@@ -161,7 +162,8 @@ $grey-color: #888888;
     }
 
     .about-text {
-        padding-top: 50px;
+        position: relative;
+        top: 100px;
 
         img {
             width: 7%;
@@ -183,31 +185,34 @@ $grey-color: #888888;
         p {
             @include p;
         }
+        a {
+            position: relative;
+            color: #fff;
+            font-weight: bold;
+            background-color: $main-color;
+            padding: 12px 45px;
+            margin-top: 10px;
+            font-size: 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 300ms ease-in-out;
+        }
+    
+        a:hover {
+            color: $black-color;
+            transition: all 300ms ease-in-out;
+            background-color: transparent;
+            border: 1px solid $main-color;
+        }
     }
 
-    a {
-        color: #fff;
-        font-weight: bold;
-        background-color: $main-color;
-        padding: 12px 28px;
-        margin-top: 10px;
-        border-radius: 20px;
-        text-decoration: none;
-        transition: all 300ms ease-in-out;
-    }
-
-    a:hover {
-        color: $black-color;
-        transition: all 300ms ease-in-out;
-        background-color: transparent;
-        border: 1px solid $main-color;
-    }
 }
 
 .treatment-section {
     display: flex;
     justify-content: space-between;
     position: relative;
+    top: 100px;
     width: 100%;
     padding: 25px 0;
     margin: 0;
@@ -244,7 +249,7 @@ $grey-color: #888888;
 
             h2 {
                 font-family: $ruf;
-                font-size: .9rem;
+                font-size: 1.5rem;
                 font-weight: bolder;
                 padding: 10px 0;
                 color: #fff;
@@ -262,6 +267,8 @@ $grey-color: #888888;
 .full-wrapper {
     // max-width: 850px;
     text-align: center;
+    position: relative;
+    top: 100px;
 
     h1 {
         @include h1;
@@ -286,13 +293,13 @@ $grey-color: #888888;
             }
 
             h2 {
-                font-size: 1.5rem;
+                font-size: 2rem;
                 font-family: $ruf;
                 font-weight: bold;
             }
 
             p {
-                font-size: .9rem;
+                font-size: 1.5rem;
                 padding: 5px 0;
                 line-height: 20px;
             }
@@ -300,10 +307,11 @@ $grey-color: #888888;
             a {
                 color: #fff;
                 font-weight: bold;
-                width: 110px;
+                width: 150px;
                 background-color: $black-color;
-                padding: 5px 0;
-                border-radius: 20px;
+                padding: 10px 0;
+                font-size: 1.5rem;
+                border-radius: 25px;
                 margin: 25px auto;
                 transition: all 300ms ease-in-out;
                 text-decoration: none;
@@ -325,6 +333,8 @@ $grey-color: #888888;
 
 .my-slide {
     width: 100%;
+    position: relative;
+    top: 100px;
     text-align: center;
 
     .background {
@@ -337,7 +347,7 @@ $grey-color: #888888;
         }
 
         p {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             font-family: $ruf;
             line-height: 30px;
             padding: 0 100px;
@@ -351,7 +361,7 @@ $grey-color: #888888;
             }
 
             p {
-                font-size: 1.6rem;
+                font-size: 1.5rem;
                 padding: 10px 0;
 
                 span {
@@ -367,6 +377,8 @@ $grey-color: #888888;
 .team-section {
     // max-width: 850px;
     text-align: center;
+    position: relative;
+    top: 100px;
 
     h1 {
         @include h1;
@@ -403,12 +415,12 @@ $grey-color: #888888;
 
                 h2 {
                     font-family: $ruf;
-                    font-size: 1.6rem;
+                    font-size: 2rem;
                     font-weight: bold;
                 }
 
                 p {
-                    font-size: 1rem;
+                    font-size: 1.5rem;
                 }
 
                 .social {
@@ -419,9 +431,9 @@ $grey-color: #888888;
                         color: $black-color;
                         border: 1px solid $black-color;
                         border-radius: 50%;
-                        padding: 5px 0;
-                        width: 12%;
-                        font-size: 1.2rem;
+                        padding: 10px 0;
+                        width: 16%;
+                        font-size: 1.7rem;
                         margin: -30px 0;
                         opacity: 0;
                         transition: all .3s ease-in-out;
@@ -457,6 +469,8 @@ $grey-color: #888888;
     width: 100%;
     background-color: #fff9f8;
     display: flex;
+    position: relative;
+    top: 100px;
 
     img {
         width: 40%;
@@ -475,7 +489,7 @@ $grey-color: #888888;
                 width: 40%;
                 border: 0;
                 border-bottom: 1px solid $grey-color;
-                font-size: .8rem;
+                font-size: 1.3rem;
                 outline: 0;
                 color: $grey-color;
                 padding: 7px 0;
@@ -489,7 +503,7 @@ $grey-color: #888888;
                 border: 0;
                 margin: 20px;
                 border-bottom: 1px solid $grey-color;
-                font-size: .8rem;
+                font-size: 1.2rem;
                 outline: 0;
                 color: $grey-color;
                 padding: 7px 0;
@@ -501,7 +515,7 @@ $grey-color: #888888;
                 border: 0;
                 margin: 20px;
                 border-bottom: 1px solid $grey-color;
-                font-size: .8rem;
+                font-size: 1.2rem;
                 outline: 0;
                 color: $grey-color;
                 resize: none;
@@ -514,8 +528,8 @@ $grey-color: #888888;
                 font-weight: bold;
                 background-color: $main-color;
                 padding: 12px 28px;
-                font-size: 1rem;
-                border-radius: 20px;
+                font-size: 1.5rem;
+                border-radius: 25px;
                 margin: 15px 20px 0;
                 transition: all 300ms ease-in-out;
                 text-decoration: none;
@@ -532,6 +546,8 @@ $grey-color: #888888;
 }
 
 .contuct {
+    position: relative;
+    top: 100px;
     width: 100%;
     text-align: center;
     margin: 25px auto;
@@ -543,7 +559,7 @@ $grey-color: #888888;
     p {
         @include p;
         padding: 1% 25%;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .section {
@@ -556,15 +572,17 @@ $grey-color: #888888;
                 margin: 0;
 
                 span {
-                    left: -50px;
-                    top: 25px;
+                    left: -70px;
+                    top: 32px;
                     position: relative;
-                    width: 25px;
+                    width: 30px;
                     border: 1px solid $main-color;
                     border-radius: 50%;
                     padding: 6px 0;
+                    font-size: 1.5rem;
                     color: #fff;
                     background-color: $main-color;
+                    
                 }
 
                 p {
@@ -583,10 +601,10 @@ $grey-color: #888888;
                 width: 100%;
                 border: 0;
                 border: 1px solid $grey-color;
-                font-size: .8rem;
+                font-size: 1.2rem;
                 outline: 0;
                 color: $grey-color;
-                padding: 12px 5px;
+                padding: 12px 13px;
                 margin: 5px;
                 background: transparent;
             }
@@ -596,10 +614,10 @@ $grey-color: #888888;
                 width: 100%;
                 border: 0;
                 border: 1px solid $grey-color;
-                font-size: .8rem;
+                font-size: 1.2rem;
                 outline: 0;
                 color: $grey-color;
-                padding: 12px 5px;
+                padding: 12px 13px;
                 margin: 5px;
                 background: transparent;
             }
@@ -610,9 +628,10 @@ $grey-color: #888888;
                 position: relative;
                 left: -110px;
                 background-color: $main-color;
-                padding: 12px 28px;
-                border-radius: 20px;
+                padding: 12px 45px;
+                border-radius: 25px;
                 margin: 15px 20px 0;
+                font-size: 1.5rem;
                 transition: all 300ms ease-in-out;
                 text-decoration: none;
             }
@@ -628,6 +647,8 @@ $grey-color: #888888;
 }
 
 footer {
+    position: relative;
+    top: 100px;
     text-align: center;
     background-color: #fff9f8;
     padding: 30px 0;
@@ -640,8 +661,8 @@ footer {
     }
 
     a {
-        font-size: 1.2rem;
-        padding: 0 5px;
+        font-size: 2rem;
+        padding: 0 12px;
         color: $black-color;
         transition: all .3s ease-in-out;
         border-right: 1px solid $grey-color;
@@ -655,7 +676,7 @@ footer {
 
     p {
         padding: 10px 0;
-        font-size: .8rem;
+        font-size: 1.2rem;
 
         span {
             color: $main-color;
@@ -824,27 +845,43 @@ footer {
         }
     }
     .banner{
+        .leaf{
+            position: absolute;
+            img{
+                width: 33%;
+            }
+        }
         .banner-text{
-            top: 10%;
+            position: relative;
+            top: 35px;
+        
             h1{
                 padding: 0;
             }
+            p{
+                margin-bottom: 60px;
+            }
         }
     }
-   
+   .about{
+    margin-top: 0;
+   }
     
 
     .appointment{
         .form{
             form{
                 input{
-                    margin: 20px 15px;
+                    width: 95%;
+                    margin: 20px 0;
                 }
                 #services{
-                    margin: 20px 15px;
+                    width: 95%;
+                    margin: 20px 0;
                 }
                 textarea{
-                    margin: 20px 15px;
+                    width: 95%;
+                    margin: 20px 0;
                 }
             }
         }
