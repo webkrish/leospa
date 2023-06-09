@@ -235,10 +235,12 @@ $grey-color: #888888;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            text-align: center;
-            padding-top: 180px;
             height: 100%;
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
 
 
@@ -572,7 +574,7 @@ $grey-color: #888888;
                 margin: 0;
 
                 span {
-                    left: -70px;
+                    left: -85px;
                     top: 32px;
                     position: relative;
                     width: 30px;
@@ -869,6 +871,18 @@ footer {
     }
    .about{
     margin-top: 0;
+   }
+   .my-slide{
+    .background{
+        p{
+            padding: 0 25px;
+        }
+        .clint-info{
+            img{
+                width: 12%;
+            }
+        }
+    }
    }
     
 
